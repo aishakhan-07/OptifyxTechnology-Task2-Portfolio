@@ -1,0 +1,138 @@
+/* General Reset */
+body, h1, h2, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background: #000;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffc107;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffc107;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+  
+  .hero .intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffc107;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* About Section */
+  section#about-me {
+    padding: 2rem 0;
+    background: #121212;
+  }
+  
+  section#about-me h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffc107;
+  }
+  
+  section#about-me p {
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Projects Section */
+  section#projects ul {
+    list-style: disc;
+    padding-left: 2rem;
+  }
+  
+  section#projects ul li {
+    margin: 1rem 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ffc107;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+  }
+  
+  form button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background: #ffc107;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #ffa000;
+  }
+  
+  /* Footer */
+  footer {
+    background: #000;
+    color: #ffc107;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
